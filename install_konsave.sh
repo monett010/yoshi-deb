@@ -3,8 +3,8 @@
 echo 'Making directories...'
 mkdir /home/$USER/konsave-venv
 
-echo 'Copying Konsave folder'
-cp /home/$USER/macdebian/konsave /home/$USER/.config
+# echo 'Copying Konsave folder'
+# cp /home/$USER/macdebian/konsave /home/$USER/.config
 
 echo 'Creating and initializing venv'
 python3 -m venv /home/$USER/konsave-venv
